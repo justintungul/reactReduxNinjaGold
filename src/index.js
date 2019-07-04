@@ -10,8 +10,8 @@ import App from './App';
 import ninjaGoldApp from './reducers/root/ninjaGoldApp';
 
 ReactDOM.render(            
-    <Provider store={createStore(ninjaGoldApp)}>
-        <App />
-    </Provider>, 
-    document.getElementById('root')
+    // <Provider store={createStore(ninjaGoldApp)}>
+    //     <App />
+    // </Provider>, 
+    // document.getElementById('root')
 );
