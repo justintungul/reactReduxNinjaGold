@@ -8,10 +8,10 @@ let Activities = ({
     onButtonClick
 }) => (
     <div className="row">
-        <ActivityCard onClick={()=> onButtonClick('farm')} location='farm' />
-        <ActivityCard onClick={()=> onButtonClick('cave')} location='cave' />
-        <ActivityCard onClick={()=> onButtonClick('house')} location='house' />
-        <ActivityCard onClick={()=> onButtonClick('casino')} location='casino' />
+        <ActivityCard onClick={()=> onButtonClick('farm')} location='farm' verb='farm' />
+        <ActivityCard onClick={()=> onButtonClick('cave')} location='cave' verb='spelunk' />
+        <ActivityCard onClick={()=> onButtonClick('house')} location='house' verb='rest' />
+        <ActivityCard onClick={()=> onButtonClick('casino')} location='casino' verb='gamble'/>
     </div>
 );
 const mapDispatchToProps = (dispatch, ownProps) => {
